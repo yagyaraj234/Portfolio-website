@@ -8,6 +8,8 @@ import gmailIcon from "../assets/email-icon.png";
 import { scrollTo } from "../helper";
 import { useFollowPointer } from "./useFollowPointer";
 
+import { achievements } from "../data";
+
 const HeroBanner = () => {
     const ref = useRef(null);
     const { x, y } = useFollowPointer(ref);
@@ -33,13 +35,13 @@ const HeroBanner = () => {
             <Wrapper>
                 {/* NAVBAR START */}
                 <motion.div
-                    className="hidden md:flex items-center justify-between mb-[40px] 2xl:mt-[63px] relative"
+                    className="hidden md:flex items-center justify-between mb-[40px] 2xl:mt-[63px] relative mt-5"
                     initial={{ y: -200, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.7, delay: 0.25 }}
                 >
                     <div className="flex items-center gap-[6px]">
-                        <div className="w-[35px] h-[35px] rounded-full bg-[#252525] flex justify-center items-center">
+                        <div className="w-[35px] h-[35px] rounded-full bg-[#252525] flex justify-center items-center ">
                             <img src={gmailIcon} alt="" className="w-[18px]" />
                         </div>
                         <div>workyagyaraj@gmail.com</div>
@@ -75,7 +77,7 @@ const HeroBanner = () => {
 
                 {/* BIG HEADING START */}
                 <motion.div
-                    className="flex justify-center text-center mt-14 mb-10 relative"
+                    className="flex justify-center text-center mt-4 mb-4 relative"
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}
@@ -95,11 +97,11 @@ const HeroBanner = () => {
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.7, delay: 0.25 }}
                 >
-                    <div className="font-light mb-4">
+                    <div className="font-light ">
                         👋 Hi, I Am{" "}
                         <span className="font-semibold">Yagyaraj</span>
                     </div>
-                    <div className="max-w-[510px] z-10">
+                    <div className="max-w-[510px] z-10 text-gray ">
                         I create and maintain modern websites and applications.
                         I solve all your business problems.
                     </div>
@@ -115,7 +117,7 @@ const HeroBanner = () => {
                 >
                     {/* START */}
                     <div className="flex items-center gap-3">
-                        <div className="text-[80px] font-light">80+</div>
+                        <div className="text-[80px] font-light">20+</div>
                         <div className="leading-[22px]">
                             SUCCESSFULLY
                             <br />
@@ -150,7 +152,7 @@ const HeroBanner = () => {
 
                     {/* HIRE ME BUTTON START */}
                     <div
-                        className="absolute top-[140px] -right-10 2xl:top-[240px] 2xl:-right-10 w-[140px] h-[140px] rounded-full bg-white/[0.7] flex flex-col justify-center items-center gap-2 backdrop-blur-sm cursor-pointer transition-transform scale-[0.65] md:scale-100 active:scale-[0.55] md:active:scale-90"
+                        className="absolute top-[140px] -right-10 2xl:top-[240px] 2xl:-right-10 w-[140px] h-[140px] rounded-full bg-white/[0.7] flex flex-col justify-center items-center gap-2 backdrop-blur-sm cursor-pointer transition-transform scale-[0.65] md:scale-100 active:scale-[0.55] md:active:scale-90 mt-20"
                         onClick={() => scrollTo("contact")}
                     >
                         <img
@@ -158,7 +160,7 @@ const HeroBanner = () => {
                             alt=""
                             className="w-[15px]"
                         />
-                        <div className="text-black">Hire Me</div>
+                        <div className="text-black ">Hire Me</div>
                     </div>
                     {/* HIRE ME BUTTON END */}
                 </motion.div>

@@ -40,21 +40,19 @@ const AboutMe = () => {
 
                 {/* PARAGRAPH START */}
                 <Div className="max-w-[759px] 2xl:max-w-[959px] text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] mb-[20px] md:mb-[30px] 2xl:mb-[50px] relative">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it
+                    Hi, I'm Yagyaraj. I'm a multi-talented human with over 2+
+                    years of experiences in wide range of design & Development.
+                    You can also call me a Web designer/ developer, experience designer, interaction,
+                    Ul, UX or by any other market defined function-title. I'm also a multi-
+                    disciplinary maker with over 2 years of experiences in wide range of web development , manager, advisor, entrepreneur, front-end developer,
+                    music enthusiast, traveler, photographer and more.
+                    I don't like to define myself by the work I've done. I define myself by the
+                    work I want to do. Skills can be taught, personality is inherent. I prefer to
+                    keep learning, continue challenging myself, and do interesting things that
+                    matter.
                 </Div>
                 {/* PARAGRAPH END */}
 
-                {/* PARAGRAPH START */}
-                <Div className="max-w-[759px] 2xl:max-w-[959px] text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] mb-[20px] md:mb-[30px] 2xl:mb-[50px] relative">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it
-                </Div>
-                {/* PARAGRAPH END */}
             </Wrapper>
         </div>
     );

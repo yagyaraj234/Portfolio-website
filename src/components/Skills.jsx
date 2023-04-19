@@ -98,23 +98,23 @@ const Skills = () => {
 
                     {/* SECTION HEADING START */}
                     <div className="flex flex-wrap justify-center gap-2 md:gap-0 md:flex-col text-[40px] md:text-[90px] 2xl:text-[120px] leading-[40px] md:leading-[95px] 2xl:leading-[123px] font-oswald uppercase text-gradient mb-10 md:mb-0 md:sticky top-2">
-                        <span>Solving</span>
-                        <span>Problems</span>
+                        <span>Design &</span>
+                        <span>Build</span>
                         <span className="flex items-center gap-2">
-                            Through
+                            Digital
                             <img
                                 src={pattern}
                                 className="block md:hidden w-[80px] mt-1"
                             />
                         </span>
                         <span className="flex items-center gap-4">
-                            Good{" "}
+                            Live{" "}
                             <img
                                 src={pattern}
                                 className="hidden md:block md:w-[140px] 2xl:w-[190px] mt-3"
                             />
                         </span>
-                        <span>Services</span>
+                        <span>Projects</span>
                     </div>
                     {/* SECTION HEADING END */}
                 </div>
